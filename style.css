@@ -1,0 +1,16 @@
+@import 'http://fonts.googleapis.com/css?family=Roboto';
+/*p1 used as the specific site header*/
+
+body{
+    font-family: "Roboto", sans serif;
+    color:#330033;
+}
+
+header{   
+    font-weight: 900;
+}
+
+article{
+    font-weight:600;
+    text-align:center
+}
