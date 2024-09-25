@@ -1,9 +1,13 @@
-import { createApp, ref } from 'vue'
+import { ref } from 'vue'
 
-createApp({
+export default{
   setup() {
+    const formData = undefined
     return {
-      count: ref(0)
+      
     }
-  }
-}).mount('#app')
+  },
+  template:`
+
+  `
+}

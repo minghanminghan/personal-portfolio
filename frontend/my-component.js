@@ -5,5 +5,7 @@ export default {
     const count = ref(0)
     return { count }
   },
-  template: `<div>Count is: {{ count }}</div><button @click="count++">Add 1</button>`
+  template: `
+  <div>Count is: {{ count }}</div><button @click="count++">Add 1</button>
+  `
 }
